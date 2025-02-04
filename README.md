@@ -34,7 +34,7 @@ This is a **React.js** project that displays a list of blog posts where users ca
 ## 📥 Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/blog-post-bookmarking.git
+git clone https://github.com/rahyanakil/blog-post-bookmarking.git
 cd blog-post-bookmarking
 ```
 ### 2️⃣ Install Dependencies
@@ -84,6 +84,6 @@ This project is open-source and available under the **MIT License**.
 Feel free to **fork** this repository and contribute! Pull requests are welcome.
 
 ## 📧 Contact
-- **GitHub**: [your-username](https://github.com/your-username)
-- **Email**: your-email@example.com
+- **GitHub**: rahyanakil(https://github.com/rahyanakil)
+- **Email**: rahyanakil89@gmail.com
 
