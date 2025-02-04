@@ -3,7 +3,7 @@ import BlogPost from "./BlogPost";
 
 const BlogCard = () => {
   return (
-    <div className="flex">
+    <div >
       {/* Blog Post Section */}
       <BlogPost />
     </div>
