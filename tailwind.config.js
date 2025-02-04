@@ -8,7 +8,7 @@ export default {
     extend: {},
     container: {
       center: true, // Centers the container
-      padding: '6rem', // Adds padding inside the container
+      padding: '4rem', // Adds padding inside the container
     },
   },
   darkMode: "class", // Enables manual dark mode control

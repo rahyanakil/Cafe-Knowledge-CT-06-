@@ -1,25 +1,27 @@
-import React from 'react'
+import React from "react";
 
-function SideBookmarkBar() {
-    return (
-        <div className="w-full lg:w-1/3 bg-gray-100 dark:bg-gray-900 p-6 rounded-lg shadow-md">
-        <div className="text-lg font-semibold bg-purple-100 text-purple-700 px-4 py-2 rounded-lg text-center">
-          Spent time on read: <span className="font-bold">177 min</span>
-        </div>
-        <h3 className="mt-4 text-lg font-bold">Bookmarked Blogs: 8</h3>
-        <div className="mt-2 space-y-2">
-          {[...Array(8)].map((_, index) => (
+function SideBookmarkBar({ bookmarkedPosts = [] }) {
+  return (
+    <div className="w-full lg:w-3/3 bg-gray-100 dark:bg-gray-900 p-4 sm:p-6 rounded-lg shadow-md">
+      <h3 className="text-base sm:text-lg font-bold">
+        Bookmarked Blogs: {bookmarkedPosts.length}
+      </h3>
+      <div className="mt-2 space-y-2">
+        {bookmarkedPosts.length === 0 ? (
+          <p className="text-gray-500">No bookmarks yet</p>
+        ) : (
+          bookmarkedPosts.map((post) => (
             <div
-              key={index}
-              className="p-3 bg-white dark:bg-gray-700 rounded-lg shadow-sm"
+              key={post.id}
+              className="p-2 sm:p-3 bg-white dark:bg-gray-700 rounded-lg shadow-sm text-sm sm:text-base"
             >
-              Master Microsoft Power Platform and Become an In-Demand!
+              {post.title}
             </div>
-          ))}
-        </div>
+          ))
+        )}
       </div>
-    )
+    </div>
+  );
 }
 
-export default SideBookmarkBar
-
+export default SideBookmarkBar;
