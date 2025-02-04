@@ -1,6 +1,7 @@
 [
     {
       "id": 1,
+      "Name":"Rahyan",
       "title": "How to get your first job as a self-taught programmer",
       "tag": ["#beginners", "#programming"],
       "image": "https://i.ibb.co.com/fz6zVWGk/Rectangle-1.png",
@@ -9,6 +10,7 @@
     },
     {
       "id": 2,
+      "Name":"Shamsi",
       "title": "Mastering JavaScript: Tips and Best Practices",
       "tag": ["#javascript", "#webdev"],
       "image": "https://i.ibb.co.com/xqHB5CnQ/Rectangle3.png",
@@ -18,6 +20,7 @@
    
     {
       "id": 3,
+      "Name":"Akil",
       "title": "The Roadmap to Becoming a Full-Stack Developer",
       "tag": ["#fullstack", "#career"],
       "image": "https://i.ibb.co.com/7dx7SBPW/Rectangle2.png",
@@ -25,6 +28,7 @@
     },
     {
       "id": 4,
+      "Name":"Shamim",
       "title": "Building Scalable Applications with Node.js",
       "tag": ["#nodejs", "#backend"],
       "profile":"https://i.ibb.co.com/WG7NQXx/cv-pic.jpg",
