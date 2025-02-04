@@ -22,6 +22,7 @@ function SinglePost({ post }) {
           <h3 className="font-semibold text-lg">{Name}</h3>
           <p className="text-sm text-gray-500">Mar 14 (4 Days ago)</p>
         </div>
+      
         <span className="ml-auto text-sm text-gray-500">05 min read</span>
           {/* Bookmark Button */}
       <button
@@ -30,6 +31,7 @@ function SinglePost({ post }) {
       >
         {isBookmarked ? <BsBookmarkFill size={20} /> : <BsBookmark size={20} />}
       </button>
+      
       </div>
       <h2 className="text-2xl font-bold mt-4">{title}</h2>
       <div className="mt-2 space-x-2 text-blue-500">
