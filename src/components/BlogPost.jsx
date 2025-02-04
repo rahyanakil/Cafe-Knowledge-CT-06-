@@ -27,19 +27,19 @@ function BlogPost() {
   return (
     <div className="flex ">
       {/* Blog Posts Section */}
-      <div className="w-full lg:w-3/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="w-full lg:w-3/3 grid grid-cols-1  gap-4 ">
         {data.map((post) => (
           <SinglePost
             key={post.id}
             post={post}
             toggleBookmark={toggleBookmark}
-            isBookmarked={bookmarkedPosts.some((item) => item.id === post.id)}
+            isBookmarked={bookmarkedPosts.find((item) => item.id === post.id)}
           />
         ))}
       </div>
 
       {/* Bookmark Sidebar (Visible on Larger Screens) */}
-      <div className="w-full lg:w-1/3">
+      <div className="w-full lg:w-2/3">
         <SideBookmarkBar bookmarkedPosts={bookmarkedPosts} />
       </div>
     </div>

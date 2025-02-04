@@ -5,7 +5,7 @@ function SinglePost({ post, toggleBookmark, isBookmarked }) {
   const { image, profile, Name, title, tag } = post;
 
   return (
-    <div className="relative flex-1 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+    <div className="relative flex-1  bg-white dark:bg-gray-800 rounded-lg shadow-md ">
       {/* Blog Image */}
       <img
         src={image}
@@ -32,7 +32,7 @@ function SinglePost({ post, toggleBookmark, isBookmarked }) {
 
         {/* Bookmark Button */}
         <button
-          className="absolute right-4 sm:right-6 md:right-12 text-gray-500 hover:text-blue-500 transition"
+          className="absolute right-4 sm:right-4 md:right-8 text-blue-500 hover:text-blue-500 transition"
           onClick={() => toggleBookmark(post)}
         >
           {isBookmarked ? <BsBookmarkFill size={20} /> : <BsBookmark size={20} />}

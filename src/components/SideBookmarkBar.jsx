@@ -2,7 +2,7 @@ import React from "react";
 
 function SideBookmarkBar({ bookmarkedPosts = [] }) {
   return (
-    <div className="w-full lg:w-3/3 bg-gray-100 dark:bg-gray-900 p-4 sm:p-6 rounded-lg shadow-md">
+    <div className="w-full lg:w-3/3 bg-gray-100 dark:bg-gray-900 p-4  rounded-lg shadow-md">
       <h3 className="text-base sm:text-lg font-bold">
         Bookmarked Blogs: {bookmarkedPosts.length}
       </h3>
