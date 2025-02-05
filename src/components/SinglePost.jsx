@@ -1,11 +1,12 @@
 import React from 'react';
 import { BsBookmark, BsBookmarkFill } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 function SinglePost({ post, toggleBookmark, isBookmarked }) {
-  const { image, profile, Name, title, tag } = post;
+  const { id,image, profile, Name, title, tag } = post;
 
   return (
-    <div className="relative flex-1  bg-white dark:bg-gray-800 rounded-lg shadow-md ">
+    <div className="relative flex-1  bg-white dark:bg-gray-800 rounded-lg shadow-md p-4">
       {/* Blog Image */}
       <img
         src={image}
@@ -52,9 +53,11 @@ function SinglePost({ post, toggleBookmark, isBookmarked }) {
       </div>
 
       {/* Mark as Read Button */}
+      <Link to={`/post/${id}`}>
       <button className="mt-4 text-blue-600 font-semibold text-sm sm:text-base hover:underline">
         Mark as read
       </button>
+      </Link>
     </div>
   );
 }
