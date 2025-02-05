@@ -70,7 +70,7 @@ npm run dev
 - Bookmarks are stored in **localStorage**, so they remain saved even after reloading the page.
 
 ## 🖼️ UI Preview
-![App Screenshot](https://your-image-url.com/screenshot.png)
+![App Screenshot](https://i.ibb.co.com/xKswbJCc/Screenshot-2025-02-05-144212.png)
 
 ## 📦 Dependencies
 ```json
@@ -78,7 +78,7 @@ npm run dev
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
+    "react-router-dom": "^6.",
     "react-icons": "^4.3.1",
     "tailwindcss": "^3.0.0"
   }
