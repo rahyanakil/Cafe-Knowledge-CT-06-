@@ -19,7 +19,7 @@ function SinglePost({ post, toggleBookmark, isBookmarked }) {
         <img
           src={profile}
           alt="Author"
-          className="w-8 h-8 sm:h-10 rounded-full"
+          className="w-10 h-8 sm:h-10 rounded-full"
         />
         <div>
           <h3 className="font-bold text-xs sm:text-sm">{Name}</h3>
