@@ -27,9 +27,10 @@ function BlogPost() {
   return (
     <div className="flex ">
       {/* Blog Posts Section */}
-      <div className="w-full lg:w-3/3 grid grid-cols-1  gap-4 ">
+      <div className="w-full lg:w-3/3 grid grid-cols-1 p-4 gap-4 ">
         {data.map((post) => (
           <SinglePost
+          
             key={post.id}
             post={post}
             toggleBookmark={toggleBookmark}

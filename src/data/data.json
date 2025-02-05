@@ -1,39 +1,38 @@
 [
-    {
-      "id": 1,
-      "Name":"Rahyan",
-      "title": "How to get your first job as a self-taught programmer",
-      "tag": ["#beginners", "#programming"],
-      "image": "https://i.ibb.co.com/fz6zVWGk/Rectangle-1.png",
-      "profile":"https://i.ibb.co.com/WG7NQXx/cv-pic.jpg"
-
-    },
-    {
-      "id": 2,
-      "Name":"Shamsi",
-      "title": "Mastering JavaScript: Tips and Best Practices",
-      "tag": ["#javascript", "#webdev"],
-      "image": "https://i.ibb.co.com/xqHB5CnQ/Rectangle3.png",
-      "profile":"https://i.ibb.co.com/WG7NQXx/cv-pic.jpg"
-
-    },
-   
-    {
-      "id": 3,
-      "Name":"Akil",
-      "title": "The Roadmap to Becoming a Full-Stack Developer",
-      "tag": ["#fullstack", "#career"],
-      "image": "https://i.ibb.co.com/7dx7SBPW/Rectangle2.png",
-      "profile":"https://i.ibb.co.com/WG7NQXx/cv-pic.jpg"
-    },
-    {
-      "id": 4,
-      "Name":"Shamim",
-      "title": "Building Scalable Applications with Node.js",
-      "tag": ["#nodejs", "#backend"],
-      "profile":"https://i.ibb.co.com/WG7NQXx/cv-pic.jpg",
-      "image": "https://i.ibb.co.com/xqHB5CnQ/Rectangle3.png"
-      
-    }
-  ]
-  
+  {
+    "id": 1,
+    "Name": "Rahyan",
+    "title": "How to get your first job as a self-taught programmer",
+    "description": "Breaking into the tech industry without a formal degree can be challenging. This guide provides actionable steps, resources, and strategies to help self-taught programmers land their first job.",
+    "tag": ["#beginners", "#programming"],
+    "image": "https://i.ibb.co.com/fz6zVWGk/Rectangle-1.png",
+    "profile": "https://i.ibb.co.com/WG7NQXx/cv-pic.jpg"
+  },
+  {
+    "id": 2,
+    "Name": "Shamsi",
+    "title": "Mastering JavaScript: Tips and Best Practices",
+    "description": "JavaScript is one of the most versatile programming languages. This article covers best practices, tips, and techniques to write clean, efficient, and maintainable JavaScript code.",
+    "tag": ["#javascript", "#webdev"],
+    "image": "https://i.ibb.co.com/xqHB5CnQ/Rectangle3.png",
+    "profile": "https://i.ibb.co.com/WG7NQXx/cv-pic.jpg"
+  },
+  {
+    "id": 3,
+    "Name": "Akil",
+    "title": "The Roadmap to Becoming a Full-Stack Developer",
+    "description": "Want to become a full-stack developer? This roadmap outlines the essential skills, technologies, and learning paths required to master both frontend and backend development.",
+    "tag": ["#fullstack", "#career"],
+    "image": "https://i.ibb.co.com/7dx7SBPW/Rectangle2.png",
+    "profile": "https://i.ibb.co.com/WG7NQXx/cv-pic.jpg"
+  },
+  {
+    "id": 4,
+    "Name": "Shamim",
+    "title": "Building Scalable Applications with Node.js",
+    "description": "Node.js is a powerful runtime for building scalable applications. This article explores key concepts like asynchronous programming, microservices, and performance optimization for Node.js applications.",
+    "tag": ["#nodejs", "#backend"],
+    "image": "https://i.ibb.co.com/xqHB5CnQ/Rectangle3.png",
+    "profile": "https://i.ibb.co.com/WG7NQXx/cv-pic.jpg"
+  }
+]

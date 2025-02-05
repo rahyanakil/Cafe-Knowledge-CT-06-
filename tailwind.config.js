@@ -5,10 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    container: {
-      center: true, // Centers the container
-      padding: '6rem', // Adds padding inside the container
+    extend: {
+      container: {
+        center: true, // Centers the container
+        padding: {
+          DEFAULT: "1rem", // Padding for small screens
+          md: "6rem", // Padding for medium screens and above
+        },
+      },
     },
   },
   darkMode: "class", // Enables manual dark mode control
